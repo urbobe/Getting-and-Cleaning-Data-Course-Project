@@ -5,7 +5,7 @@ library(dplyr)
 # to local folder and unzip
 
 # ********************************************************************************
-#1 Merge the training and the test sets to create one data set.
+# 1 Merge the training and the test sets to create one data set.
 # ********************************************************************************
 
 features <- read.table("UCI HAR Dataset/features.txt", col.names = c("n","functions"))
@@ -31,7 +31,7 @@ all_data <- cbind(subject_tot, y_tot, x_tot)
 
 
 # ********************************************************************************
-#2 Extract only the measurements on the mean and standard deviation for each measurement. 
+# 2 Extract only the measurements on the mean and standard deviation for each measurement. 
 # ********************************************************************************
 
 filtered_data <- select(all_data, subject, code, contains("mean"), contains("std"))
