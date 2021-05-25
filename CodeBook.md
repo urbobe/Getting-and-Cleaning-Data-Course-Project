@@ -30,7 +30,7 @@ all_data <- cbind(subject_tot, y_tot, x_tot)
 filtered_data
 
 # Appropriately label the data set with descriptive variable names (using gsub)
-names updated in variable filtered_data 
+names updated in filtered_data 
 
 # Create a second, independent tidy data set with the average of each variable for each activity and each subject (using group_by and summarise_all functions)
 final_tidy_data_set
