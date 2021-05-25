@@ -27,4 +27,10 @@ subject_tot <- rbind(subject_train, subject_test)
 
 all_data <- cbind(subject_tot, y_tot, x_tot)
 
-#
+# Extract only the measurements on the mean and standard deviation for each measurement (using select)
+filtered_data
+
+# Appropriately label the data set with descriptive variable names (using gsub)
+
+# Create a second, independent tidy data set with the average of each variable for each activity and each subject (using group_by and summarise_all functions)
+final_tidy_data_set
