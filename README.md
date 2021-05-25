@@ -9,4 +9,4 @@ CodeBook.md, describes all the variables and summaries calculated, along with un
 
 run_analysis.R, script that performs the steps descibed in the project.
 
-final_tidy_data_set.txt, output from from the script
+final_tidy_data_set.txt, output from from the script.
